@@ -1,0 +1,110 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 10px;
+  background-color: blue;
+  border: solid 10px blue;
+}
+
+.goal {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background-color: #fff;
+  padding: 10px;
+}
+
+h1 {
+  border-bottom: solid 1px black;
+  margin-top: 10px;
+  color: blue;
+}
+.goals {
+  display: flex;
+  margin-top: 10px;
+  border-bottom: solid 1px gray;
+}
+.team {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.timeline {
+  grid-column: 3/4;
+  grid-row: 1/3;
+  background-color: #fff;
+  padding: 10px;
+}
+.scopes {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.scope-content {
+  margin-top: 10px;
+}
+
+.primary {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.flag {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.teams {
+  display: flex;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.scope-des {
+  display: flex;
+}
+
+.question {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.primary-des {
+  display: flex;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.timeline-des {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.timeline-icon {
+  padding: 12px 12px;
+  border-radius: 20px;
+  color: white;
+  background-color: rgb(224, 139, 250);
+  align-items: center;
+  align-content: center;
+  margin-right: 10px;
+}
+
+.timeline-content {
+  border-bottom: dashed 1px black;
+}

@@ -1,0 +1,38 @@
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .goals {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .goal-icon {
+    text-align: center;
+  }
+  .teams {
+    display: flex;
+    flex-direction: column;
+  }
+  .team-icon {
+    text-align: center;
+  }
+  .team-content {
+    text-align: center;
+  }
+
+  .scope-des {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .primary-des {
+    display: flex;
+    flex-direction: column;
+  }
+  .primary-icon {
+    text-align: center;
+  }
+}

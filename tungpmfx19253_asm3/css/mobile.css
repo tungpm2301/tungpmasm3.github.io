@@ -1,0 +1,82 @@
+@media (max-width: 768px) {
+  .name {
+    display: none;
+  }
+  #nav-bar a {
+    display: block;
+    border-bottom: none;
+    border-left: none;
+    text-align: left;
+  }
+
+  #nav-bar a:nth-child(2) {
+    border-right: none;
+  }
+  #nav-bar a:nth-child(5) {
+    border-right: none;
+  }
+  .row-lab {
+    display: block;
+  }
+  .container {
+    display: block;
+  }
+
+  #target,
+  #personal-info {
+    width: 100%;
+    background-color: #f0f0f0;
+  }
+
+  #about .container {
+    margin-top: 10px;
+  }
+
+  .column-item {
+    border: 1px solid #d0d0d0;
+    box-shadow: 1px 1px 5px #d0d0d0;
+    padding: 20px 0;
+    margin: 20px 0px;
+  }
+
+  #job-info .container {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  /*Chung chi */
+  .row-certificate,
+  .row-project {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .certificate-item {
+    width: 100%;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d6c08d;
+  }
+
+  .certificate-image {
+    width: 100%;
+  }
+  .certificate-content {
+    width: 100%;
+  }
+
+  .certificate-item:nth-child(odd) .certificate-content {
+    border-right: none;
+  }
+
+  #project .container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+}
